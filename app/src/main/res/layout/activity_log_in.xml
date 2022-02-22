@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="12dp"
+    android:background="@color/background"
+    android:layout_height="match_parent"
+    tools:context=".LogIn">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:src="@drawable/icon"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:layout_marginTop="15sp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/EmailLogIn"
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:layout_marginTop="15sp"
+        android:hint="Pass Word"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:id="@+id/PasswordLogIn"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginTop="15dp"
+        android:id="@+id/registrationButton"
+        android:text="Log In"
+        android:onClick="SignIn"
+        android:textAllCaps="false"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do not have an account! Sign up"
+        android:onClick="SignUP"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textRegistration"/>
+</LinearLayout>

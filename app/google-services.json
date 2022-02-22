@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "949547406470",
+    "firebase_url": "https://fireinstgram.firebaseio.com",
+    "project_id": "fireinstgram",
+    "storage_bucket": "fireinstgram.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949547406470:android:037702b0a09bf63a736d07",
+        "android_client_info": {
+          "package_name": "com.example.fireinstgram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949547406470-6b9997m4o2oprpd5fgoopcasag86jv6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChQtHht2mgKqWtXIjhLmiQZ5UQB00n2Ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "949547406470-6b9997m4o2oprpd5fgoopcasag86jv6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

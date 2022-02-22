@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iconImage"
+        android:layout_width="108dp"
+        android:layout_height="91dp"
+        android:src="@drawable/instgrampic"
+
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@+id/layout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iconImage"
+        app:layout_constraintVertical_bias="0.176">
+
+        <ImageView
+            android:id="@+id/iconName"
+            android:layout_width="237dp"
+            android:layout_height="88dp"
+            android:src="@drawable/icon" />
+
+        <Button
+            android:id="@+id/logIn"
+android:onClick="logIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/button"
+            android:text="log in"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+android:onClick="registration"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/button"
+            android:text="registration"
+            android:textAllCaps="false"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+</LinearLayout>
